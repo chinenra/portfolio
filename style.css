@@ -1,9 +1,15 @@
 html {
   scroll-behavior: smooth;
-  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right bottom, #efefdc, #dcefef, #efdcef); }
+
+html, body {
+  margin: 0;
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
 
 .intro {
   width: 100%;
@@ -57,17 +63,7 @@ html {
   font-size: larger;
   font-weight: bold; }
 
-@media (max-width: 374px) {
-  .intro__nametag {
-    transform-origin: top;
-    transform: scale(0.7); } }
-
 @media (min-width: 768px) {
-  .intro__nametag {
+  .intro {
     transform-origin: top;
     transform: scale(1.5); } }
-
-@media (min-width: 1024px) {
-  .intro__nametag {
-    transform-origin: top;
-    transform: scale(2); } }

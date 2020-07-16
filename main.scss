@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    height: 100%;
+    // height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     // background-image: linear-gradient(rgb(255, 255, 219), rgb(191,191,176));
@@ -8,6 +8,16 @@ html {
     background-image: linear-gradient(to right bottom, rgb(239,239,220), rgb(220,239,239), rgb(239,220,239));
 
     
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .intro {
@@ -78,23 +88,31 @@ html {
     font-weight: bold;
 }
 
-@media (max-width:374px) {
-    .intro__nametag {
-        transform-origin: top;
-        transform: scale(0.7);
-    }
-}
+// @media (max-width:374px) {
+//     .intro__nametag {
+//         transform-origin: top;
+//         transform: scale(0.7);
+//     }
+// }
 
 @media (min-width:768px) { 
-    .intro__nametag {
+    // html {
+    //     height: 100%;
+    // }
+
+    // body {
+    //     height: 100%;
+    // }
+
+    .intro {
         transform-origin: top;
         transform: scale(1.5);
     }
 }
 
-@media (min-width:1024px) { 
-    .intro__nametag {
-        transform-origin: top;
-        transform: scale(2);
-    }
-}
+// @media (min-width:1024px) { 
+//     .intro__nametag {
+//         transform-origin: top;
+//         transform: scale(2);
+//     }
+// }
