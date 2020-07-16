@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-image: linear-gradient(rgb(255, 255, 219), rgb(191,191,176));
+    // background-color: rgb(255, 255, 219);
+    background-image: linear-gradient(to right bottom, rgb(239,239,220), rgb(220,239,239), rgb(239,220,239));
+
+    
+}
+
+.intro {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+
+    &__nametag {
+        width: 20%;
+        min-width: 300px;
+        max-width: 350px;
+        display: inline-block;
+
+        &-top {
+            background-color: rgb(255, 51, 51);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            &__h1 {
+                margin: 0;
+            }
+        }
+
+        &-middle {
+            background-color: white;
+        }
+
+        &-end {
+            background-color: rgb(255, 51, 51);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 10px;
+        }
+
+    }
+
+}
+
+.hello {
+    display: block;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    line-height: 1;
+    font-size: xxx-large;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.myname {
+    display: block;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: white;
+    line-height: 1;
+    padding-bottom: 7px;
+}
+
+.torie {
+    margin-block-start: 0;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+.occupation {
+    margin-block-end: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media (max-width:374px) {
+    .intro__nametag {
+        transform-origin: top;
+        transform: scale(0.7);
+    }
+}
+
+@media (min-width:768px) { 
+    .intro__nametag {
+        transform-origin: top;
+        transform: scale(1.5);
+    }
+}
+
+@media (min-width:1024px) { 
+    .intro__nametag {
+        transform-origin: top;
+        transform: scale(2);
+    }
+}
