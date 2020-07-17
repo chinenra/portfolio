@@ -66,4 +66,6 @@ body {
 @media (min-width: 768px) {
   .intro {
     transform-origin: top;
-    transform: scale(1.5); } }
+    transform: scale(1.5); }
+  .skills {
+    margin-top: 150px; } }
