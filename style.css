@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right bottom, #efefdc, #dcefef, #efdcef); }
+  background-color: #ffffdb; }
 
 html, body {
   margin: 0;
