@@ -1,0 +1,22 @@
+.skills {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+
+    &__list {
+        width: 15%;
+        min-width: 300px;
+        max-width: 350px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    &__h3 {
+        font-family: 'Sawarabi Gothic', sans-serif;
+    } 
+
+    &__p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
