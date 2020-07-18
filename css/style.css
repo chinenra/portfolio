@@ -15,14 +15,14 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #ffffdb; }
-
-html, body {
-  margin: 0;
-  height: 100%; }
+  min-height: 100%;
+  margin: 0; }
 
 body {
-  overflow-x: hidden; }
+  min-height: 100%;
+  margin: 0;
+  background-image: linear-gradient(to right bottom, #efefdc, #dcefef, #efdcef) !important;
+  background-size: cover; }
 
 .intro {
   width: 100%;

@@ -1,26 +1,16 @@
 @import 'layout/skills.scss';
 
 html {
-    scroll-behavior: smooth;
-    background-color: rgb(255, 255, 219);
-    // height: 100%;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-image: linear-gradient(rgb(255, 255, 219), rgb(191,191,176));
-    
-    //background-image: linear-gradient(to right bottom, rgb(239,239,220), rgb(220,239,239), rgb(239,220,239));
-
-    
-}
-
-html, body {
+    scroll-behavior: smooth; 
+    min-height: 100%;
     margin: 0;
-    height: 100%;
-    
 }
 
 body {
-    overflow-x: hidden;
+    min-height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, rgb(239,239,220), rgb(220,239,239), rgb(239,220,239)) !important;
+    background-size: cover;
 }
 
 .intro {
