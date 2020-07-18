@@ -1,8 +1,11 @@
+.container {
+  text-align: center; }
+
 .skills {
   width: 80%;
   padding-top: 2%;
   padding-bottom: 2%;
-  text-align: center; }
+  display: inline-block; }
   .skills__list {
     width: 15%;
     min-width: 300px;

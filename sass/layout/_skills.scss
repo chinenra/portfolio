@@ -1,8 +1,12 @@
+.container {
+    text-align: center;
+}
+
 .skills {
     width: 80%;
     padding-top: 2%;
     padding-bottom: 2%;
-    text-align: center;
+    display: inline-block;
 
     &__list {
         width: 15%;
