@@ -1,0 +1,34 @@
+.projects {
+    padding-top: 10%;
+    background-color: #fffaf0;
+
+    &__title {
+        text-align: center;
+        font-family: 'Rowdies', cursive;
+        color: #504d4d;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+}
+
+.test1 {
+    text-align: center;
+    background-color: #c6eeff;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.test1 h5 {
+    font-weight: bolder;
+}
+
+.test2 {
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.test2 h5 {
+    font-weight: bolder;
+}

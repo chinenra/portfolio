@@ -1,10 +1,19 @@
 .skills {
     padding-top: 10%;
+    padding-bottom: 10%;
+
+    &__title {
+        text-align: center;
+        font-family: 'Rowdies', cursive;
+        color: #504d4d;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
 }
 
 #grid {
     position: relative;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 0; /* Clears unordered list default of 40px */
 }
