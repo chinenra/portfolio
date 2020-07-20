@@ -8,7 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Sawarabi+Gothic&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <title>Torie CR</title>
+
 </head>
 <body>
 
@@ -17,54 +21,77 @@
         <div class="row">
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="intro">
-                    <div class="intro__nametag">
-                        <div class="intro__nametag-top">
-                            <h1 class="intro__nametag-top__h1">
-                                <span class="hello">Hello</span>
-                                <span class="myname">my name is</span>
-                            </h1>
+                    <div div data-aos="flip-left" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="intro__nametag">
+                            <div class="intro__nametag-top">
+                                <h1 class="intro__nametag-top__h1">
+                                    <span class="hello">Hello</span>
+                                    <span class="myname">my name is</span>
+                                </h1>
+                            </div>
+                            <div class="intro__nametag-middle">
+                                <h1 class="torie">Torie</h1>
+                                <p class="occupation">Software engineer, Coffee Fanatic</p>
+                            </div>
+                            <div class="intro__nametag-end"></div>
                         </div>
-                        <div class="intro__nametag-middle">
-                            <h1 class="torie">Torie</h1>
-                            <p class="occupation">Software engineer, Coffee Fanatic</p>
-                        </div>
-                        <div class="intro__nametag-end"></div>
                     </div>
                 </div>
             </div>
 
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="about">
-                    <a href="views/about.html"><img class="about__icon" src="img/coffee.png" alt="coffee"></a>
-                    <a href="views/about.html"><h2>About me</h2></a>
+                    <div div data-aos="flip-left" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="about__container">
+                            <a href="views/about.html"><img class="about__icon" src="img/coffee.png" alt="coffee"></a>
+                            <a href="views/about.html"><h2>About me</h2></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="resume">
-                    <img class="resume__icon" src="img/resume.png" alt="resume">
-                    <h2>Resume</h2>
+                    <div div data-aos="flip-left" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="resume__container">
+                            <img class="resume__icon" src="img/resume.png" alt="resume">
+                            <h2>Resume</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="skills">
-                    <img class="skills__icon" src="img/skills.png" alt="skills">
-                    <a href="views/skills.html"><h2>Skills</h2></a>
+                    <div data-aos="flip-right" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="skills__container">
+                            <img class="skills__icon" src="img/skills.png" alt="skills">
+                            <a href="views/skills.html"><h2>Skills</h2></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="projects">
-                    <img class="projects__icon" src="img/projects.png" alt="projects">
-                    <h2>Projects</h2>
+                    <div data-aos="flip-right" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="projects__container">
+                            <img class="projects__icon" src="img/projects.png" alt="projects">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="col col-12 col-md-6 col-lg-4">
                 <div class="contact">
-                    <img class="contact__icon" src="img/contact.png" alt="contact">
-                    <h2>Contact</h2>
+                    <div data-aos="flip-right" data-aos-duration="500" data-aos-mirror="true">
+                        <div class="contact__container">
+                            <img class="contact__icon" src="img/contact.png" alt="contact">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -76,7 +103,10 @@
 
     </div> <!-- End of container -->
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
 </body>
 </html>
