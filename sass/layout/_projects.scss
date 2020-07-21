@@ -3,4 +3,15 @@
     min-height: 100%;
     text-align: center;
     padding-top: 70px;
+
+    &__container {
+        transform-origin: top;
+        transform: scale(0.5);
+    }
+}
+
+.projects_icon {
+    transform: scale(0.75);
+    transform-origin: top;
+    margin-left: -55px;
 }

@@ -57,37 +57,65 @@
   background-color: pink;
   min-height: 100%;
   text-align: center;
-  padding-top: 70px; }
+  padding-top: 70px;
+  max-height: 350px !important; }
   .about__container {
     transform-origin: top;
     transform: scale(0.5); }
 
-.magnify {
+.about_icon {
   text-align: center; }
 
 .resume {
   background-color: lightblue;
   min-height: 100%;
   text-align: center;
-  padding-top: 70px; }
+  padding-top: 70px;
+  max-height: 350px !important; }
+  .resume__container {
+    transform-origin: top;
+    transform: scale(0.5); }
+
+.resume_icon {
+  transform: scale(0.75);
+  transform-origin: top;
+  margin-left: -55px; }
 
 .skills {
   background-color: lightgrey;
   min-height: 100%;
   text-align: center;
-  padding-top: 70px; }
+  max-height: 350px !important;
+  padding-top: 40px; }
 
 .projects {
   background-color: aliceblue;
   min-height: 100%;
   text-align: center;
   padding-top: 70px; }
+  .projects__container {
+    transform-origin: top;
+    transform: scale(0.5); }
+
+.projects_icon {
+  transform: scale(0.75);
+  transform-origin: top;
+  margin-left: -55px; }
 
 .contact {
   background-color: palegreen;
   min-height: 100%;
   text-align: center;
-  padding-top: 70px; }
+  padding-top: 70px;
+  max-height: 350px !important; }
+  .contact__container {
+    transform-origin: top;
+    transform: scale(0.5); }
+
+.contact_icon {
+  transform: scale(0.75);
+  transform-origin: top;
+  margin-left: -55px; }
 
 html {
   scroll-behavior: smooth; }
@@ -111,12 +139,17 @@ html, body {
   flex-direction: column; }
 
 .col {
-  max-height: 350px !important;
+  min-height: 350px !important;
+  max-height: 350px;
   padding: 0 !important; }
 
 @media (min-width: 768px) {
   .container {
     max-width: 100% !important; } }
+
+@media (min-width: 1024px) {
+  .height_fix {
+    max-height: 280px !important; } }
 
 @media (min-height: 768px) {
   .col {

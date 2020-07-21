@@ -3,14 +3,16 @@
     min-height: 100%;
     text-align: center;
     padding-top: 70px;
+    max-height: 350px !important;
 
     &__container {
         transform-origin: top;
         transform: scale(0.5);
     }
+
 }
 
-.magnify {
+.about_icon {
     text-align: center;
 }
 

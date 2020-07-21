@@ -34,9 +34,14 @@ html, body {
 } 
 
 .col {
-    max-height: 350px !important;
+    min-height: 350px !important;
+    max-height: 350px;
     padding: 0 !important;
 }
+
+// object {
+//     pointer-events: visibleFill;
+// }
 
 @media (min-width:768px) { 
 
@@ -46,10 +51,17 @@ html, body {
 
 } 
 
+@media (min-width:1024px) {
+    .height_fix {
+        max-height: 280px !important;
+    }
+}
+
 @media (min-height:768px){
     .col {
         min-height: 375px !important;
     }
+    
 }
 
 @media (min-height:1024px) {
