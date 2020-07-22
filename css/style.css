@@ -89,6 +89,10 @@
   max-height: 350px !important;
   padding-top: 40px; }
 
+.skills-page {
+  height: 100%;
+  background-color: lightgrey; }
+
 .projects {
   background-color: aliceblue;
   min-height: 100%;
