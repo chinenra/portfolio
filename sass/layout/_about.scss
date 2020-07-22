@@ -8,6 +8,7 @@
     &__container {
         transform-origin: top;
         transform: scale(0.5);
+        position: relative;
     }
 
 }
@@ -15,4 +16,6 @@
 .about_icon {
     text-align: center;
 }
+
+
 

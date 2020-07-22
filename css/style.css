@@ -61,7 +61,8 @@
   max-height: 350px !important; }
   .about__container {
     transform-origin: top;
-    transform: scale(0.5); }
+    transform: scale(0.5);
+    position: relative; }
 
 .about_icon {
   text-align: center; }
