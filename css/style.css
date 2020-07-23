@@ -53,20 +53,6 @@
   font-size: larger;
   font-weight: bold; }
 
-.about {
-  background-color: pink;
-  min-height: 100%;
-  text-align: center;
-  padding-top: 70px;
-  max-height: 350px !important; }
-  .about__container {
-    transform-origin: top;
-    transform: scale(0.5);
-    position: relative; }
-
-.about_icon {
-  text-align: center; }
-
 .resume {
   background-color: lightblue;
   min-height: 100%;
@@ -75,37 +61,29 @@
   max-height: 350px !important; }
   .resume__container {
     transform-origin: top;
-    transform: scale(0.5); }
+    transform: scale(0.5);
+    text-align: center; }
 
 .resume_icon {
   transform: scale(0.75);
   transform-origin: top;
-  margin-left: -55px; }
-
-.skills {
-  background-color: lightgrey;
-  min-height: 100%;
-  text-align: center;
-  max-height: 350px !important;
-  padding-top: 40px; }
-
-.skills-page {
-  height: 100%;
-  background-color: lightgrey; }
+  display: inline-block; }
 
 .projects {
   background-color: aliceblue;
   min-height: 100%;
   text-align: center;
-  padding-top: 70px; }
+  padding-top: 70px;
+  max-height: 350px !important; }
   .projects__container {
     transform-origin: top;
-    transform: scale(0.5); }
+    transform: scale(0.5);
+    text-align: center; }
 
 .projects_icon {
   transform: scale(0.75);
   transform-origin: top;
-  margin-left: -55px; }
+  display: inline-block; }
 
 .contact {
   background-color: palegreen;
@@ -115,12 +93,13 @@
   max-height: 350px !important; }
   .contact__container {
     transform-origin: top;
-    transform: scale(0.5); }
+    transform: scale(0.5);
+    text-align: center; }
 
 .contact_icon {
   transform: scale(0.75);
   transform-origin: top;
-  margin-left: -55px; }
+  display: inline-block; }
 
 html {
   scroll-behavior: smooth; }
@@ -147,6 +126,11 @@ html, body {
   min-height: 350px !important;
   max-height: 350px;
   padding: 0 !important; }
+
+.titles {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  color: #485656; }
 
 @media (min-width: 768px) {
   .container {

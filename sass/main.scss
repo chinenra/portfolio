@@ -1,7 +1,5 @@
 @import 'layout/intro.scss';
-@import 'layout/about.scss';
 @import 'layout/resume.scss';
-@import 'layout/skills.scss';
 @import 'layout/projects.scss';
 @import 'layout/contact.scss';
 
@@ -22,7 +20,7 @@ html, body {
 
 .container {
     height: 100%;
-}
+} 
 
 .row.display-flex {
     display: flex;
@@ -37,6 +35,12 @@ html, body {
     min-height: 350px !important;
     max-height: 350px;
     padding: 0 !important;
+}
+
+.titles {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    color: #485656;
 }
 
 @media (min-width:768px) { 
