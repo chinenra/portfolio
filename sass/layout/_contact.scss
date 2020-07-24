@@ -1,15 +1,24 @@
 .contact {
-    background-color: palegreen;
+    // background-color: lightgrey;
+    background-color: #E8D7FF;
     min-height: 100%;
     text-align: center;
     padding-top: 70px;
     max-height: 350px !important;
-    
+   
     &__container {
         transform-origin: top;
         transform: scale(0.5);
         text-align: center;
     }
+}
+
+.contact:hover {
+    background-color: #740AFF;
+    
+    .titles {
+        color: white;
+    } 
 }
 
 .contact_icon {

@@ -41,9 +41,65 @@ html, body {
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     color: #485656;
+    // color: white;
+}
+
+.nav-item {
+    font-family: 'Sawarabi Gothic', sans-serif; 
+    font-weight: 600;
+}
+
+a:active {
+    opacity: 0.1;
+}
+
+@media (max-width: 320px) {
+    .resume {
+        padding-right: 180px;
+    }
+
+    .projects {
+        padding-right: 180px; 
+    }
+
+    .contact {
+        padding-right: 180px;
+    }
+}
+
+
+@media (min-width:321px) and (max-width:414px) {
+    
+    .resume {
+        padding-right: 90px;
+    }
+
+    .projects {
+        padding-right: 90px;
+    }
+
+    .contact {
+        padding-right: 90px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .resume {
+        padding-right: 90px;
+    }
+
+    .projects {
+        padding-right: 90px;
+    }
+
+    .contact {
+        padding-right: 90px;
+    }
 }
 
 @media (min-width:768px) { 
+
+    //off-center; need padding for devices 768- anything less than 1024
 
     .container {
         max-width: 100% !important;

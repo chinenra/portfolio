@@ -2,6 +2,7 @@
     width: 100%;
     text-align: center;
     background-color: #FFFFDB;
+    // background-color: #E8E288;
     min-height: 100%;
     padding-top: 70px;
 
@@ -36,6 +37,11 @@
 
     }
 
+}
+
+.intro:hover {
+    background-color: white;
+    opacity: 0.8;
 }
 
 .hello {

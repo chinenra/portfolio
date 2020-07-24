@@ -1,5 +1,6 @@
 .resume {
-    background-color: lightblue;
+    // background-color: lightblue;
+    background-color: #81B8D9;
     min-height: 100%;
     text-align: center;
     padding-top: 70px;
@@ -11,6 +12,14 @@
         text-align: center;
     }
 }  
+
+.resume:hover {
+    background-color: #265C7E;
+    
+    .titles {
+        color: white;
+    }
+}
 
 .resume_icon {
     transform: scale(0.75);
