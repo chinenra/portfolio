@@ -171,7 +171,9 @@ html, body {
 .titles {
   font-family: 'Anton', sans-serif;
   letter-spacing: 5px;
-  color: #485656; }
+  color: #485656;
+  text-decoration: underline;
+  font-size: xx-large; }
 
 .nav-item {
   font-family: 'Sawarabi Gothic', sans-serif;
